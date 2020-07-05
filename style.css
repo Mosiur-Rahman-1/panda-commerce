@@ -1,0 +1,37 @@
+.container {
+
+    margin-bottom: 50px;
+}
+
+.navbar {
+
+    margin-top: 15px;
+}
+
+/* Hero slider custom bg color added */
+
+.carousel-item {
+
+    padding: 20px 40px;
+}
+
+.color-bg {
+
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.price-color {
+
+    color: #ff136f;
+}
+
+.color-btn {
+
+    background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
+    color: #fff;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
