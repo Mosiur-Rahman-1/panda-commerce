@@ -1,3 +1,8 @@
+* {
+
+    /* border: red solid 1px; */
+}
+
 .container {
 
     margin-bottom: 50px;
@@ -12,18 +17,19 @@
 
 .carousel-item {
 
-    padding: 20px 40px;
+    padding: 20px 40px 20px 60px;
 }
 
 .color-bg {
 
     background-color: #fceae8;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .price-color {
 
     color: #ff136f;
+    padding-bottom: 10px;
 }
 
 .color-btn {
@@ -34,4 +40,69 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+.category-heading {
+
+    padding-bottom: 40px;
+}
+
+.category-watch {
+
+    background-image: linear-gradient(to right, #FF9C35 0%, #FFD019 100%);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.category-watch img{
+
+    height: 100px;
+}
+
+.category-bag {
+
+    background-image: linear-gradient(to right, #FF589B 0%, #FF136F 100%);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.category-bag img{
+
+    height: 100px;
+}
+
+.category-shoes {
+
+    background-image: linear-gradient(to right, #4289FF 0%, #07F8C3 100%);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.category-shoes img {
+
+    height: 100px;
+}
+
+.card {
+
+    border: none;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    
+}
+
+.card-footer {
+
+    border-top: none;
+}
+
+.subscribe-height {
+
+    height: 400px;
 }
